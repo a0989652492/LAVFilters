@@ -9,7 +9,8 @@ Install
 =============================
 - Unpack
 - Register (install_*.bat files)
-	Registering requires administrative rights, and an elevated shell ("Run as Administrator")
+	Registering requires administrative rights.
+	On Vista/7 also make sure to start it in an elevated shell.
 
 Using it
 =============================
@@ -99,7 +100,7 @@ In future versions you'll be able to choose the title from within the player, as
 
 Compiling
 =============================
-Compiling is pretty straight forward using VS2019 (included project files).
+Compiling is pretty straight forward using VS2017 (included project files).
 Older versions of Visual Studio are not officially supported, but may stil work.
 
 It does, however, require that you build your own ffmpeg and libbluray.
@@ -122,3 +123,4 @@ Feedback
 =============================
 GitHub Project: https://github.com/Nevcairiel/LAVFilters
 Doom9: https://forum.doom9.org/showthread.php?t=156191
+You can, additionally, reach me on IRC in the MPC-HC channel on freenode (#mpc-hc)
